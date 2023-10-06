@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&display=swap");
+body{
+    background: linear-gradient(skyblue,rgb(56, 225, 112));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:relative;
+    
+}
+
+.container{
+    position:absolute;
+
+    
+    
+    font-family: 'Fuggles';
+    font-size: 10em;
+    
+}
+
+
+.navigation{
+
+    position:relative;
+    right:0;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-family: 'Fuggles';
+    border-radius: 20%;
+    border-style: solid;
+    font-size: 40px;
+    border-width: 1px;
+
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Welcome to login page
+        </title>
+         <script>
+        function openPage(name){
+            
+            window.location.href=name;
+        }
+    </script>
+    <style>
+        .newclass{
+            margin-left:40%;
+            padding-top: 20px;
+            margin-top: 200px;
+            border-style:solid;
+            border-color: black;
+            border-radius: 5%;
+            border-width: 5px;
+            width:350px;
+            font-size: 25px;
+        }
+    </style>
+    </head>
+    
+   
+    <body style="background-color: antiquewhite;">
+        <div class="tab"  style="text-align: right;padding-top:0%;"><img  align="left" float="left" src="download.png" alt="Travancore Analytics" height='100', width="100">
+            <button onclick=openPage("home.html")>Home</button>
+            <button onclick=openPage('registration.html')>Registration</button>
+            <button onclick=openPage('login.html') >Login</button>
+          </div><br>
+          <div  class="newclass"  >
+            <div><label>Name<input type="text"></label></div><br>
+            <div><label>Password<input type="password"></label></div><br>
+          </div>
+    </body>
+</html>
